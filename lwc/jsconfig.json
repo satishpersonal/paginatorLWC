@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/viewGEDDocuments": [
+                "viewGEDDocuments/viewGEDDocuments.js"
+            ],
+            "c/cloneCaseRelatedRecordsComponent": [
+                "cloneCaseRelatedRecordsComponent/cloneCaseRelatedRecordsComponent.js"
+            ],
+            "c/cloneCaseFields": [
+                "cloneCaseFields/cloneCaseFields.js"
+            ],
+            "c/CloneCaseFields": [
+                "CloneCaseFields/CloneCaseFields.js"
+            ],
+            "c/cloneCaseComponent": [
+                "cloneCaseComponent/cloneCaseComponent.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
